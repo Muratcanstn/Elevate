@@ -1,0 +1,1626 @@
+/* -------------PAGE 1------------- */
+
+#page1
+{
+    display: flex;
+    justify-content: center;
+}
+
+.heavenly
+{
+    width: 100%;
+    height: 36vw;
+    object-fit: cover;
+    object-position: 50% 63%;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.HELLO
+{
+    width: 10%;
+    margin-top: 14.1vw;
+    text-align: center;
+    font-family: "Big Caslon", sans-serif;
+    font-size: 6vw;
+    background-image: linear-gradient(180deg, white 60%, black 50%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.description
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1vw;
+    color: #5f5e5e;
+    text-align: right;
+    width: 8vw;
+    height: 5vw;
+    position: absolute;
+    top: 36vw;
+    right: 0;
+}
+
+.text
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1.5vw;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 31.3vw;
+    height: 14vw;
+    position: absolute;
+    top: 43vw;
+    left: 8vw;
+}
+
+.text:first-child:first-letter
+{
+    float: left;
+    font-size: 20pt;
+}
+
+/* -------------PAGE 2------------- */
+
+#page2
+{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 65vw;
+    left:0;
+    width: 100%;
+}
+
+.failure
+{
+    font-size: 1.5vw;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 30vw;
+    padding-top: 30vw;
+    background: url("img/black.jpeg") no-repeat;
+    background-size: 100%;
+    line-height: 1vw;
+    font-family: "Baskerville", sans-serif;
+}
+
+.underline
+{
+    text-decoration: line-through;
+    font-family: "Baskerville", sans-serif;
+}
+
+/* -------------PAGE 3------------- */
+
+#page3
+{
+    position: absolute;
+    top: 125vw;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 58.5vw;
+}
+
+.column1
+{
+    width: 33.33%;
+    background: url("img/black.jpeg");
+    object-fit: cover;
+}
+
+.fire1
+{
+    background: url("img/fire.jpg") -17vw -2vw no-repeat;
+    background-size: 60vw;
+    width: 80%;
+    height: 38vw;
+    position: relative;
+    top: 20.4vw;
+}
+
+.description1
+{
+    color: #5f5e5e;
+    font-size: 1vw;
+    position: relative;
+    bottom: 22.1vw;
+    width: 10vw;
+    font-family: "Baskerville", sans-serif;
+}
+
+.column2
+{
+    width: 33.33%;
+    text-align: justify;
+    font-family: "Baskerville", sans-serif;
+    font-size: 1.5vw;
+    padding-left: 1vw;
+}
+
+.title2
+{
+    font-family: "Big Caslon", sans-serif;
+    font-size: 6vw;
+    text-align: left;
+    padding-left: 4vw;
+    position: relative;
+    top: 2.3vw;
+}
+
+.text2
+{
+    position: relative;
+    top: 11vw;
+    padding-left: 4vw;
+    font-size: 1.3vw;
+    font-family: "Baskerville", sans-serif;
+}
+
+.column3
+{
+    width: 30%;
+    text-align: justify;
+    padding-top: 3.9vw;
+}
+
+.text3
+{
+    padding-left: 5vw;
+    font-size: 1.3vw;
+    font-family: "Baskerville", sans-serif;
+}
+
+.fire2
+{
+    background: url("img/fire.jpg") -35vw -8.4vw no-repeat;
+    background-size: 60vw;
+    width: 83%;
+    height: 31.5vw;
+    position: relative;
+    top: 4.8vw;
+    left: 4.9vw;
+    transform: scaleX(-1);
+}
+
+p
+{
+    color: #5f5e5e;
+    position: relative;
+    bottom: 0.7vw;
+    right: 5.3vw;
+    width: 10vw;
+    font-family: "Baskerville", sans-serif;
+    font-size: 1vw;
+    text-align: right;
+    overflow: visible;
+}
+
+/* -------------PAGE 4------------- */
+
+#page4
+{
+    position: absolute;
+    top: 183.5vw;
+    left: 0;
+    background: url("img/black.jpeg") no-repeat;
+    background-size: 200vw;
+    height: 68vw;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.colum4
+{
+    width: 45%;
+}
+.title4
+{
+    font-family: "Big Caslon", sans-serif;
+    font-size:6vw;
+    width: 90%;
+    text-align: right;
+    position: relative;
+    top: 8.5vw;
+    left: 6vw;
+}
+
+.text4
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1.49vw;
+    width: 90%;
+    position: relative;
+    left: 6vw;
+    top: 15.3vw;
+}
+
+.description4
+{
+    font-family: "Baskerville", sans-serif;
+    width:8vw;
+    color: #5f5e5e;
+    font-size: 1vw;
+    text-align: right;
+    position: relative;
+    left: 37vw;
+    top: 21.7vw;
+}
+
+.column41
+{
+    display: flex;
+    justify-content: flex-end;
+    width: 75%;
+}
+
+.path
+{
+    object-fit: cover;
+    object-position: 4.5vw;
+    width: 100%;
+    height: 100%;
+}
+
+/* -------------PAGE 5------------- */
+
+#page5
+{
+    display: flex;
+    flex-direction: row;
+    height: 70vw;
+    position: absolute;
+    top: 251.5vw;
+    left:0;
+}
+
+.column5
+{
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.clouds
+{
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+}
+
+.description5
+{
+    font-family: "Baskerville", sans-serif;
+    width:9vw;
+    color: #5f5e5e;
+    font-size: 1vw;
+    text-align: left;
+    position: relative;
+    top: -0.2vw;
+}
+
+.column51
+{
+    width: 45%;
+    height: 100%;
+}
+
+.title5
+{
+    font-family: "Big Caslon", sans-serif;
+    font-size: 6vw;
+    text-align: right;
+    position: relative;
+    top: 3vw;
+    right: 17.4vw;
+    background-image: linear-gradient(90deg, white 45%, black 10%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+}
+.text5
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1.49vw;
+    text-align: justify;
+    width: 75%;
+    position: relative;
+    top: 21.7vw;
+    left: 4.8vw;
+}
+
+.text51
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1.49vw;
+    text-align: justify;
+    width: 75%;
+    position: relative;
+    top: 23.7vw;
+    left: 4.8vw;
+    color: white;
+    z-index: 2;
+}
+
+.italic
+{
+    font-style: italic;
+    font-family: "Baskerville", sans-serif;
+}
+
+.background5
+{
+    position: relative;
+    top: 12.7vw;
+    right: 0;
+    width: 100%;
+    height: 12.6vw;
+}
+
+/* -------------PAGE 6------------- */
+
+#page6
+{
+    display: flex;
+    flex-direction: row;
+    height: 76.3vw;
+    position: absolute;
+    top: 321.2vw;
+    left:0;
+    background: url("img/black.jpeg");
+}
+
+.column6
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.title6
+{
+    font-family: "Big Caslon", sans-serif;
+    font-size:6vw;
+    text-align: right;
+    position: relative;
+    top: 9vw;
+    color: white;
+    padding-right: 3vw;
+}
+
+.text6
+{
+    font-family: "Baskerville", sans-serif;
+    font-size:1.5vw;
+    color: white;
+    text-align: justify;
+    padding-right: 12vw;
+    padding-left: 12vw;
+    position: relative;
+    top: 21vw;
+}
+
+.description6
+{
+    font-family: "Baskerville", sans-serif;
+    width:9vw;
+    color: #5f5e5e;
+    font-size: 1vw;
+    text-align: right;
+    position: relative;
+    top: 35.7vw;
+    left: 40.2vw;
+}
+
+.column61
+{
+    width: 50%;
+}
+
+.nbd1
+{
+
+    width: 18vw;
+    height: 18vw;
+    background: url("img/NBD.png") -55vw -45vw no-repeat;
+    background-size: 102vw;
+    position: relative;
+    top: 2vw;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.nbd2
+{
+    width: 29.9vw;
+    height: 18vw;
+    background: url("img/NBD.png") -19vw -27vw no-repeat;
+    background-size: 95vw;
+    position: relative;
+    top: 2vw;
+    left: 0.5vw;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.nbd3
+{
+    width: 48.7vw;
+    height: 40vw;
+    background: url("img/NBD.png") no-repeat;
+    background-size: 50vw;
+    position: relative;
+    top: 2.4vw;
+}
+
+.nbd4
+{
+    width: 29.9vw;
+    height: 18vw;
+    background: url("img/NBD.png") -43vw -17vw no-repeat;
+    background-size: 90vw;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    top: 0.3vw;
+}
+
+.nbd5
+{
+    width: 18vw;
+    height: 18vw;
+    background: url("img/NBD.png") -23.5vw -47vw no-repeat;
+    background-size: 100vw;
+    position: relative;
+    left: 0.5vw;
+    display: inline-block;
+    vertical-align: top;
+    top: 0.3vw;
+}
+
+/* -------------PAGE 7------------- */
+
+#page7
+{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 397.5vw;
+    left:0;
+    width: 100%;
+}
+
+.virtue
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1.5vw;
+    color: black;
+    text-align: center;
+    width: 100%;
+    height: 30vw;
+    padding-top: 30vw;
+    line-height: 1vw;
+}
+
+/* -------------PAGE 8------------- */
+
+#page8
+{
+    height: 76.3vw;
+    position: absolute;
+    top: 457.6vw;
+    left:0;
+}
+
+.sail
+{
+    left: 28.9vw;
+    object-fit: cover;
+    width: 70vw;
+    height: 45vw;
+    position: relative;
+    top: -22vw;
+}
+
+.title8
+{
+    font-family: "Big Caslon", sans-serif;
+    font-size: 6vw;
+    text-align: left;
+    width: 35%;
+    z-index: 2;
+    position: relative;
+    top: 37.1vw;
+    left: 19.5vw;
+}
+
+.text8
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1.5vw;
+    width: 30%;
+    text-align: justify;
+    position: relative;
+    top: -4vw;
+    left: 60.4vw;
+}
+
+.description8
+{
+    text-align: right;
+    width: 15vw;
+    position: relative;
+    top: -74.4vw;
+    left: 13.7vw;
+    font-family: "Baskerville", sans-serif;
+    font-size: 1vw;
+    color: #5f5e5e;
+}
+
+/* -------------PAGE 9------------- */
+
+#page9
+{
+    position: absolute;
+    top: 534vw;
+    left: 0;
+    height: 70vw;
+}
+
+.title9
+{
+    font-family: "Big Caslon", sans-serif;
+    font-size: 8vw;
+    text-align: left;
+    z-index: 2;
+    transform: rotate(270deg);
+    width: 50%;
+    position: relative;
+    top: 15.2vw;
+    left: 61.1vw;
+    background-image: linear-gradient(180deg, white 30%, black 10%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+}
+
+.words
+{
+    object-fit: cover;
+    width: 40vw;
+    height: 70vw;
+    position: relative;
+    top: -19.3vw;
+    object-position: -35vw;
+    left: 42vw;
+}
+
+.text9
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1.5vw;
+    width: 25%;
+    text-align: justify;
+    position: relative;
+    top: -70vw;
+    left: 8vw;
+}
+
+.text91
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1.5vw;
+    width: 25%;
+    position: relative;
+    top: -63.3vw;
+    left: 8vw;
+    text-align: justify;
+}
+
+.description9
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1vw;
+    color: #5f5e5e;
+    width: 10%;
+    position: relative;
+    top: -129.6vw;
+    left: 31.9vw;
+    text-align: right;
+}
+
+/* -------------PAGE 10------------- */
+
+#page10
+{
+    position: absolute;
+    top: 604.2vw;
+    height: 65vw;
+    left: 0;
+}
+
+.bg10
+{
+    height: 100%;
+    width: 28%;
+    z-index: 1;
+    position: relative;
+    right: 0;
+    top: -30.8vw;
+}
+
+.stair
+{
+    object-fit: cover;
+    width: 20%;
+    height: 40%;
+    position: relative;
+    z-index: 2;
+    top: 4vw;
+    left: 4vw;
+}
+
+.description10
+{
+    text-align: left;
+    font-family: "Baskerville", sans-serif;
+    font-size: 1vw;
+    color: #5f5e5e;
+    position: relative;
+    z-index: 2;
+    top: 3.7vw;
+    left: 4vw;
+    width: 10vw;
+}
+
+.title101
+{
+    position: relative;
+    height: 32%;
+    width: 23%;
+    z-index: 3;
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: -65vw;
+    left: 16.5vw;
+}
+
+.l-line
+{
+    font-family: "Big Caslon", sans-serif;
+    font-size: 6vw;
+    color: white;
+}
+
+.r-line
+{
+    font-family: "Big Caslon", sans-serif;
+    font-size: 6vw;
+    text-align: left;
+}
+.js
+{
+    object-fit: cover;
+    height: 90%;
+    width: 40%;
+    position: relative;
+    top: -33.8vw;
+    left: 27.8vw;
+}
+
+.text101
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1.5vw;
+    text-align: justify;
+    width: 23%;
+    position: relative;
+    top: -112vw;
+    left: 30.3vw;
+}
+
+.quote
+{
+    position: relative;
+    top: -109vw;
+    left: 30.3vw;
+    text-align: right;
+    width: 23%;
+    font-family: "Baskerville", sans-serif;
+    font-size: 1.5vw;
+}
+.description101
+{
+    text-align: right;
+    font-family: "Baskerville", sans-serif;
+    font-size: 1vw;
+    color: #5f5e5e;
+    position: relative;
+    top: -38.3vw;
+    right: 43.3vw;
+    z-index: 3;
+}
+
+/* -------------PAGE 11------------- */
+
+#page11
+{
+    position: absolute;
+    top: 669.5vw;
+    object-fit: cover;
+    left: 0;
+}
+
+.rami
+{
+    height: 100%;
+    width: 100%;
+}
+
+.text11
+{
+    z-index: 2;
+    font-family: "Baskerville", sans-serif;
+    font-size: 1.5vw;
+    width: 30%;
+    text-align: justify;
+    position: relative;
+    top: -48vw;
+    left: 5vw;
+}
+
+.title11
+{
+    font-family: "Big Caslon", sans-serif;
+    font-size: 10vw;
+    width: 50%;
+    background-image: linear-gradient(90deg, black 50%, white 50%) ;
+    background-size: 100%;
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+    background-position: -1vw;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -46vw;
+    left: 5vw;
+}
+
+.description11
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1vw;
+    color: #5f5e5e;
+    width: 20%;
+    position: relative;
+    top: -65.5vw;
+    text-align: right;
+    left: 78vw;
+}
+
+/* -------------PAGE 12------------- */
+
+#page12
+{
+    position: absolute;
+    top: 736vw;
+    left: 0;
+    height: 67vw;
+}
+
+.time
+{
+    object-fit: cover;
+    z-index: 1;
+    width: 70%;
+    object-position: 0 -6vw;
+    position: relative;
+    top: -20.7vw;
+}
+
+.bg12
+{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    top: 0;
+}
+.title12
+{
+    font-family: "Big Caslon", sans-serif;
+    font-size: 8vw;
+    width: 35%;
+    z-index: 3;
+    position: relative;
+    bottom: 77vw;
+    left: 7vw;
+}
+
+.whiteText
+{
+    color: white;
+    font-family: "Big Caslon", sans-serif;
+}
+
+.description12
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1vw;
+    color: #5f5e5e;
+    width: 20%;
+    position: relative;
+    text-align: right;
+    top: 51.6vw;
+    left: 29.5vw;
+}
+
+.text12
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1.5vw;
+    text-align: left;
+    width: 25%;
+    position: relative;
+    left: 70.5vw;
+    top: 7vw;
+    color: white;
+    z-index: 3;
+}
+
+.quote12
+{
+    width: 40%;
+    position: relative;
+    top: 2vw;
+    left: 18.2vw;
+    font-family: "Baskerville", sans-serif;
+    font-size: 1.5vw;
+    color: white;
+    z-index: 3;
+    text-align: right;
+}
+
+.text121
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1.5vw;
+    text-align: right;
+    width: 20%;
+    position: relative;
+    left: 78.8vw;
+    top: 17vw;
+    color: white;
+    z-index: 3;
+}
+
+/* -------------PAGE 13------------- */
+
+#page13
+{
+    position: absolute;
+    top: 803.3vw;
+    left: 0;
+    height: 68.7vw;
+    background: url("img/black.jpeg") top 23.67vw right 0 no-repeat;
+    background-size: 19vw 45vw;
+}
+
+.title13
+{
+    font-family: "Big Caslon", sans-serif;
+    font-size: 8vw;
+    position: relative;
+    top: 7vw;
+    left: 7vw;
+    width: 35%;
+}
+
+.touch
+{
+    height: 45vw;
+    width: auto;
+    position: relative;
+    top: 14vw;
+    left: 15.5vw;
+}
+
+.border
+{
+    height: 45vw;
+}
+
+.text13
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1.5vw;
+    width: 27%;
+    text-align: justify;
+    position: relative;
+    top: -44vw;
+    left: 63vw;
+}
+
+.description13
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1vw;
+    color: #5f5e5e;
+    width: 15%;
+    text-align: right;
+    position: relative;
+    top: -3.4vw;
+    left: 0.5vw;
+}
+
+/* -------------PAGE 14------------- */
+
+#page14
+{
+    position: absolute;
+    top: 871.9vw;
+    left: 0;
+    height: 70vw;
+    background: url("img/black.jpeg") top 0 right 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.round
+{
+    height: 50vw;
+    width: auto;
+    position: relative;
+    top: 8vw;
+    left: 23vw;
+    z-index: 1;
+}
+
+.text14
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1.5vw;
+    color: white;
+    z-index: 3;
+    width: 29%;
+    position: relative;
+    top: 10vw;
+    left: 10vw;
+}
+
+.description14
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1vw;
+    color: #5f5e5e;
+    width: 15%;
+    position: relative;
+    top: -1vw
+}
+
+/* -------------PAGE 15------------- */
+
+#page15
+{
+    position: absolute;
+    top: 941.9vw;
+    left: 0;
+    height: 70vw;
+    background: url("img/black.jpeg") no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+}
+
+.title15
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1.5vw;
+    color: white;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+    position: relative;
+    top: 34vw;
+}
+
+/* -------------PAGE 16------------- */
+
+#page16
+{
+    position: absolute;
+    top: 1012vw;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    height: 70vw;
+}
+
+.column16
+{
+    width: 50%;
+    background: url("img/black.jpeg") 0 100% no-repeat;
+    background-size: 100% 50%;
+    z-index: 1;
+}
+
+.title16
+{
+    font-family: "Big Caslon", sans-serif;
+    font-size: 7.35vw;
+    width: 90%;
+    position: relative;
+    left: 3vw;
+    z-index: 2;
+}
+
+.text16
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1.5vw;
+    color: white;
+    text-align: justify;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 1.5vw;
+    z-index: 2;
+}
+
+.column161
+{
+    width: 50%;
+}
+
+.whewn
+{
+    height: 70%;
+    width: auto;
+    position: relative;
+    top: 12vw;
+    z-index: 1;
+}
+
+.description16
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1vw;
+    color: #5f5e5e;
+    width: 25%;
+    position: relative;
+    top: 8vw;
+    left: 37vw;
+    z-index: 2;
+    text-align: right;
+}
+
+/* -------------PAGE 17------------- */
+
+#page17
+{
+    position: absolute;
+    top: 1082vw;
+    left: 0;
+    overflow: hidden;
+    height: 80vw;
+}
+
+.title17
+{
+    font-family: "Big Caslon", sans-serif;
+    font-size: 6vw;
+    transform: rotate(270deg);
+    text-align: right;
+    width: 50%;
+    position: relative;
+    top: -65vw;
+    left: 29vw;
+}
+
+.description17
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1vw;
+    color: #5f5e5e;
+    width: 20%;
+    position: relative;
+    top: -53.1vw;
+    left: 0.2vw;
+}
+
+.cyan\&pink
+{
+    height: 50vw;
+    width: auto;
+    position: relative;
+    top: 7vw;
+    z-index: 1;
+}
+
+.blue\&purple
+{
+    height: 45vw;
+    width: auto;
+    z-index: 2;
+    position: relative;
+    top: -24vw;
+    left: 24vw;
+}
+
+.red\&purple
+{
+    height: 40vw;
+    width: auto;
+    position: relative;
+    top: 39vw;
+    left: -20vw;
+    z-index: 2;
+}
+
+.blue
+{
+    height: 45vw;
+    width: auto;
+    z-index: 2;
+    position: relative;
+    top: -60vw;
+    left: 72vw;
+}
+
+/* -------------PAGE 18------------- */
+
+#page18
+{
+    position: absolute;
+    top: 1162vw;
+    left: 0;
+    border: 1px solid;
+    height: 68.1vw;
+    background: url("img/black.jpeg");
+}
+
+.red
+{
+    width: 40vw;
+    height: auto;
+    position: relative;
+    top: 43.2vw;
+    left: 17vw;
+}
+
+.purple
+{
+    width: 40vw;
+    height: auto;
+}
+
+.nsmb
+{
+    width: 60vw;
+    height: auto;
+    position: relative;
+    top: -10vw;
+    left: 20vw;
+}
+
+.description18
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1vw;
+    color: #5f5e5e;
+    width: 15%;
+    text-align: right;
+    position: relative;
+    left: 42.2vw;
+    top: 0.6vw;
+}
+
+/* -------------PAGE 19------------- */
+
+#page19
+{
+    position: absolute;
+    top: 1230.2vw;
+    left: 0;
+    height: 70vw;
+}
+
+.aoly
+{
+    width: 70%;
+    height: 70vw;
+}
+
+.title191
+{
+    font-family: "Big Caslon", sans-serif;
+    font-size: 6vw;
+    text-align: right;
+    width: 10%;
+    position: relative;
+    top: -65vw;
+    left: 58.5vw;
+}
+
+.title192
+{
+    font-family: "Big Caslon", sans-serif;
+    font-size: 6vw;
+    text-align: left;
+    width: 25%;
+    position: relative;
+    top: -79.45vw;
+    left: 70vw;
+}
+
+.text19
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1.5vw;
+    width: 25%;
+    position: relative;
+    top: -75vw;
+    left: 70vw;
+}
+
+.description19
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1vw;
+    color: #5f5e5e;
+    width: 20%;
+    position: relative;
+    top: -47.7vw;
+    left: 69.5vw;
+}
+
+/* -------------PAGE 20------------- */
+
+#page20
+{
+    position: absolute;
+    top: 1300.2vw;
+    left: 0;
+    height: 70vw;
+    width: 100%;
+    object-fit: cover;
+    background: url("img/black.jpeg") no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.fly
+{
+    height: 120vw;
+    width: auto;
+    position: relative;
+    top: -20vw;
+    left: 15vw;
+    object-fit: cover;
+}
+
+.title20
+{
+    font-family: "Big Caslon", sans-serif;
+    font-size: 6vw;
+    color: white;
+    position: relative;
+    top: -115vw;
+    left: 6vw;
+}
+
+.description20
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1vw;
+    color: #5f5e5e;
+    text-align: right;
+    position: relative;
+    top: -68vw;
+    right: 5.5vw;
+}
+
+/* -------------PAGE 21------------- */
+
+#page21
+{
+    position: absolute;
+    top: 1370.2vw;
+    left: 0;
+    height: 70vw;
+    background: url("img/black.jpeg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.orion
+{
+    width: 45%;
+    height: auto;
+    position: relative;
+}
+
+.milky
+{
+    width: 40%;
+    height: auto;
+    position: relative;
+    left: 14.2vw;
+    top: 3.6vw;
+}
+
+.title21
+{
+    transform: rotate(270deg);
+    font-family: "Big Caslon", sans-serif;
+    font-size: 6vw;
+    width: 20%;
+    color: white;
+    position: relative;
+    top: -35vw;
+    left: 46.5vw;
+}
+
+.description211
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1vw;
+    color: #5f5e5e;
+    width: 10%;
+    text-align: left;
+    position: relative;
+    top: -74.5vw;
+    left: 44.7vw;
+}
+
+.description212
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1vw;
+    color: #5f5e5e;
+    width: 10%;
+    text-align: right;
+    position: relative;
+    top: -21vw;
+    left: 48.8vw;
+}
+
+/* -------------PAGE 22------------- */
+
+#page22
+{
+    position: absolute;
+    top: 1440.2vw;
+    left: 0;
+    background: url("img/black.jpeg") no-repeat;
+    background-size: 100% 100%;
+    height: 68vw;
+}
+
+.circum
+{
+    width: 73%;
+    height: auto;
+}
+
+.title22
+{
+    font-family: "Big Caslon", sans-serif;
+    font-size: 6vw;
+    color: white;
+    width: 50%;
+    text-align: right;
+    position: relative;
+    top: 5.5vw;
+    left: 45vw;
+}
+
+.text22
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1.5vw;
+    color: white;
+    width: 18%;
+    text-align: justify;
+    position: relative;
+    top: -40vw;
+    left: 76.8vw;
+}
+
+.description22
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1vw;
+    color: #5f5e5e;
+    position: relative;
+    top: -24.5vw;
+    left: 0.3vw;
+    width: 10%;
+}
+
+/* -------------PAGE 23------------- */
+
+#page23
+{
+    position: absolute;
+    top: 1508.2vw;
+    left: 0;
+    height: 68vw;
+    background: url("img/black.jpeg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.stardust
+{
+    width: 73%;
+    height: auto;
+    position: relative;
+    top: 19vw;
+    left: 26.7vw;
+}
+
+.title23
+{
+    font-family: "Big Caslon", sans-serif;
+    font-size: 6vw;
+    color: white;
+    width: 50%;
+    text-align: right;
+    position: relative;
+    top: -42vw;
+    left: 1.5vw;
+}
+
+.text23
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1.5vw;
+    color: white;
+    width: 18%;
+    text-align: justify;
+    position: relative;
+    top: -24vw;
+    left: 4.7vw;
+}
+
+.quote23
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1.5vw;
+    color: white;
+    text-align: right;
+    position: relative;
+    top: -21vw;
+    left: 12.6vw;
+    width: 10%;
+}
+
+.description23
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1vw;
+    color: #5f5e5e;
+    width: 10%;
+    position: relative;
+    top: -9vw;
+    left: 16.5vw;
+    text-align: right;
+}
+
+/* -------------PAGE 24------------- */
+
+#page24
+{
+    position: absolute;
+    top: 1576.2vw;
+    left: 0;
+    object-fit: cover;
+    height: 60vw;
+    background: url("img/milkyWay.JPG") ;
+    background-size: 100% 100%;
+}
+
+.text24
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1.5vw;
+    color: white;
+    width: 30%;
+    position: relative;
+    top: 43.8vw;
+    left: 5vw;
+}
+
+.description24
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1vw;
+    color: #5f5e5e;
+    text-align: right;
+    width: 10%;
+    position: relative;
+    top: 39vw;
+    left: 88.8vw;
+}
+
+/* -------------PAGE 25------------- */
+
+#page25
+{
+    position: absolute;
+    top: 1636.2vw;
+    left: 0;
+    background: url("img/me.JPG") no-repeat;
+    background-size: 100% 100%;
+    height: 70vw;
+}
+
+.text25
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1.5vw;
+    color: white;
+    width: 28%;
+    text-align: justify;
+    position: relative;
+    top: 45vw;
+    left: 68vw;
+}
+
+.quote25
+{
+    font-family: "Baskerville", sans-serif;
+    font-size: 1.5vw;
+    color: white;
+    width: 28%;
+    text-align: right;
+    position: relative;
+    top: 46vw;
+    left: 68vw;
+}
+
+#Top
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    margin: 0;
+    color: white;
+}
+
+.topBtn
+{
+    position: absolute;
+    bottom: 3vw;
+    right: 3vw;
+    text-decoration: none;
+    font-family: "Baskerville", sans-serif;
+    background: black;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    transition: .25s;
+}
+
+.topBtn:hover
+{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* -------------END------------- */

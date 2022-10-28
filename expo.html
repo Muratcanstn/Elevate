@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="Stylesheet" href="expo/portraits_popup.css" />
+    <link rel="Stylesheet" href="expo/japanese_popup.css" />
+    <link rel="Stylesheet" href="expo/macbook_popup.css" />
+    <link rel="Stylesheet" href="expo/alone_popup.css" />
+    <link rel="Stylesheet" href="expo/afraid_popup.css" />
+    <link rel="Stylesheet" href="expo/ipad_popup.css" />
+    <link rel="Stylesheet" href="expo/kanye_popup.css" />
+    <link rel="Stylesheet" href="expo/tatoo_popup_test.css" />
+    <link rel="Stylesheet" href="expo/closer_popup.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <title>elevate</title>
+</head>
+
+<body>
+
+<div class="expo"> <!-- TODO page goes up when closing artwork popup
+                            I want it to stay at the same place : need to fix it -->
+
+    <div class="container1">
+        <a href="#portraits_popup" target="">
+            <img class="draw zoom" alt="" src="drawings/portraits.png">
+            <?php
+                include ("expo/portraits_popup.html")
+            ?>
+        </a>
+
+        <a href="#japanese_popup" target="">
+            <img class="draw zoom" alt="" src="drawings/Japanese_Staircase.png">
+            <?php
+                include ("expo/japanese_popup.html")
+            ?>
+        </a>
+
+        <a href="#macbook_popup" target="">
+            <img class="draw zoom" alt="" src="drawings/macbook_custom.png">
+            <?php
+                include ("expo/macbook_popup.html")
+            ?>
+        </a>
+    </div>
+
+    <div class="container2">
+        <a href="#closer_popup" target="">
+            <img class="draw zoom" alt="" src="drawings/closer.png">
+            <?php
+                include ("expo/closer_popup.html")
+            ?>
+        </a>
+
+        <a href="#alone_popup" target="">
+            <img class="draw zoom" alt="" src="drawings/alone%20with%20you.png">
+            <?php
+                include ("expo/alone_popup.html")
+            ?>
+        </a>
+
+        <a href="#afraid_popup" target="">
+            <img class="draw zoom" alt="" src="drawings/Afraid_of_Losing_You.png">
+            <?php
+                include ("expo/afraid_popup.html")
+            ?>
+        </a>
+    </div>
+
+    <div class="container3">
+        <a href="#ipad_popup">
+            <img class="draw zoom" alt="" src="drawings/ipad_custom2.png">
+            <?php
+                include ("expo/ipad_popup.html")
+            ?>
+        </a>
+
+        <a href="#kanye_popup" target="">
+            <img class="draw zoom" alt="" src="drawings/We_Have_Everything_We_Need.png">
+            <?php
+                include ("expo/kanye_popup.html")
+            ?>
+        </a>
+
+        <a href="#tatoo_popup_test" target="">
+            <img class="draw zoom" alt="" src="drawings/tatoo.png">
+            <?php
+                include ("expo/tatoo_popup.html")
+            ?>
+        </a>
+    </div>
+</div>
+
+
+
+</body>
