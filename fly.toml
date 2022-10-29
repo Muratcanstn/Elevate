@@ -1,4 +1,4 @@
-# fly.toml file generated for elevate on 2022-10-29T15:45:45+02:00
+# fly.toml file generated for holy-pond-6172 on 2022-10-29T16:58:36+02:00
 
 app = "elevate"
 kill_signal = "SIGINT"
@@ -13,7 +13,7 @@ processes = []
 
 [[services]]
   http_checks = []
-  internal_port = 8080
+  internal_port = 8043
   processes = ["app"]
   protocol = "tcp"
   script_checks = []
@@ -23,7 +23,6 @@ processes = []
     type = "connections"
 
   [[services.ports]]
-    force_https = true
     handlers = ["http"]
     port = 80
 
