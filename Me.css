@@ -1,3 +1,7 @@
+:root {
+    --background: url("img/black.png");
+}
+
 /* -------------PAGE 1------------- */
 
 #page1
@@ -88,7 +92,7 @@
     width: 100%;
     height: 30vw;
     padding-top: 30vw;
-    background: url("img/black.jpeg") no-repeat;
+    background: url("img/black.png") no-repeat;
     background-size: 100%;
     line-height: 1vw;
     font-family: "Baskerville", sans-serif;
@@ -116,13 +120,13 @@
 .column1
 {
     width: 33.33%;
-    background: url("img/black.jpeg");
+    background: url("img/black.png");
     object-fit: cover;
 }
 
 .fire1
 {
-    background: url("img/fire.jpg") -17vw -2vw no-repeat;
+    background: url("img/fire.png") -17vw -2vw no-repeat;
     background-size: 60vw;
     width: 80%;
     height: 38vw;
@@ -184,7 +188,7 @@
 
 .fire2
 {
-    background: url("img/fire.jpg") -35vw -8.4vw no-repeat;
+    background: url("img/fire.png") -35vw -8.4vw no-repeat;
     background-size: 60vw;
     width: 83%;
     height: 31.5vw;
@@ -214,7 +218,7 @@ p
     position: absolute;
     top: 183.5vw;
     left: 0;
-    background: url("img/black.jpeg") no-repeat;
+    background: url("img/black.png") no-repeat;
     background-size: 200vw;
     height: 68vw;
     color: white;
@@ -380,7 +384,7 @@ p
     position: absolute;
     top: 321.2vw;
     left:0;
-    background: url("img/black.jpeg");
+    background: url("img/black.png");
 }
 
 .column6
@@ -918,7 +922,7 @@ p
     top: 803.3vw;
     left: 0;
     height: 68.7vw;
-    background: url("img/black.jpeg") top 23.67vw right 0 no-repeat;
+    background: url("img/black.png") top 23.67vw right 0 no-repeat;
     background-size: 19vw 45vw;
 }
 
@@ -977,7 +981,7 @@ p
     top: 871.9vw;
     left: 0;
     height: 70vw;
-    background: url("img/black.jpeg") top 0 right 0 no-repeat;
+    background: url("img/black.png") top 0 right 0 no-repeat;
     background-size: 100% 100%;
 }
 
@@ -1021,7 +1025,7 @@ p
     top: 941.9vw;
     left: 0;
     height: 70vw;
-    background: url("img/black.jpeg") no-repeat;
+    background: var(--background) no-repeat;
     background-size: 100% 100%;
     width: 100%;
 }
@@ -1055,7 +1059,7 @@ p
 .column16
 {
     width: 50%;
-    background: url("img/black.jpeg") 0 100% no-repeat;
+    background: var(--background) 0 100% no-repeat;
     background-size: 100% 50%;
     z-index: 1;
 }
@@ -1191,7 +1195,7 @@ p
     left: 0;
     border: 1px solid;
     height: 68.1vw;
-    background: url("img/black.jpeg");
+    background: var(--background);
 }
 
 .red
@@ -1299,7 +1303,7 @@ p
     height: 70vw;
     width: 100%;
     object-fit: cover;
-    background: url("img/black.jpeg") no-repeat;
+    background: var(--background) no-repeat;
     background-size: 100% 100%;
     overflow: hidden;
 }
@@ -1343,7 +1347,7 @@ p
     top: 1370.2vw;
     left: 0;
     height: 70vw;
-    background: url("img/black.jpeg") no-repeat;
+    background: var(--background) no-repeat;
     background-size: 100% 100%;
 }
 
@@ -1406,7 +1410,7 @@ p
     position: absolute;
     top: 1440.2vw;
     left: 0;
-    background: url("img/black.jpeg") no-repeat;
+    background: var(--background) no-repeat;
     background-size: 100% 100%;
     height: 68vw;
 }
@@ -1460,7 +1464,7 @@ p
     top: 1508.2vw;
     left: 0;
     height: 68vw;
-    background: url("img/black.jpeg") no-repeat;
+    background: var(--background) no-repeat;
     background-size: 100% 100%;
 }
 
@@ -1530,7 +1534,7 @@ p
     left: 0;
     object-fit: cover;
     height: 60vw;
-    background: url("img/milkyWay.JPG") ;
+    background: url("img/milkyWay.png") ;
     background-size: 100% 100%;
 }
 
@@ -1564,7 +1568,7 @@ p
     position: absolute;
     top: 1636.2vw;
     left: 0;
-    background: url("img/me.JPG") no-repeat;
+    background: url("img/me.png") no-repeat;
     background-size: 100% 100%;
     height: 70vw;
 }
