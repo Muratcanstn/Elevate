@@ -147,6 +147,7 @@
 
 .form_shape
 {
+    border: 1px solid red;
     width: 100%;
     justify-content: center;
     align-items: center;
