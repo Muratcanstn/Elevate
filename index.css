@@ -74,12 +74,12 @@ html,body
     justify-content: center;
     align-items: center;
     color: rgba(58, 59, 85, 1);
+    transition: all 0.25s ease;
 }
 
 .list a:hover
 {
     color: white;
-    transition: 0.25s;
 }
 
 .image

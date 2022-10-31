@@ -14,7 +14,7 @@ if (isset($_POST['formsend'])) {
 
     mail($recipient, $subject, $firstname, $headers) or die("Error!");
 
-    header("Location: light_homepage.html?Sentsuccessful!");
+    header("Location: index.html?Sent successful!");
 
     echo "Thank You!";
 }
