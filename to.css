@@ -7,6 +7,11 @@
     font-family: 'Bebas Neue', cursive;
 }
 
+@font-face {
+    font-family: rische-demo;
+    src: url("font/rische-demo.woff") format("woff");
+}
+
 .fixed-nav ul
 {
     width: 100%;
@@ -96,29 +101,106 @@
     transform: scale(1.2);
 }
 
+.left
+{
+    position: absolute;
+    top: 37%;
+    left: 2%;
+    font-family: rische-demo, serif;
+    font-size: 120px;
+    z-index: 1;
+}
+
+.right
+{
+    position: absolute;
+    top: 57%;
+    left: 7%;
+    font-family: rische-demo, serif;
+    font-size: 90px;
+    z-index: 1;
+}
+
+.to_caption
+{
+    position: absolute;
+    top: 50%;
+    left: 68%;
+    font-family: rische-demo, serif;
+    text-align: left;
+}
+
 .stack
 {
     height: 30vw;
     aspect-ratio: 5/8;
-    margin-left: auto;
-    margin-right: auto;
+    left: 47%;
     position: relative;
     top: 37%;
 }
 
 .card
 {
+    transition: transform .5s cubic-bezier(.05, .43, .25, .95);
+}
+
+.card img
+{
     height: 30vw;
     aspect-ratio: 5/8;
     object-fit: cover;
     border-radius: 20vw;
     position: absolute;
-    border: 1px solid black;
+    transition: transform .5s cubic-bezier(.05, .43, .25, .95);
 }
 
-.card:nth-child(1)
+.card img:hover
 {
-    transform: translateX(-50%);
+    transform: translateY(-15px);
 }
+
+.stack:hover > .card:nth-child(6){
+    transform: translateX(30%);
+}
+
+.stack:hover > .card:nth-child(5){
+    transform: translate(60%);
+}
+
+.stack:hover > .card:nth-child(4){
+    transform: translate(90%);
+}
+
+.stack:hover > .card:nth-child(3){
+    transform: translate(120%);
+}
+
+.stack:hover > .card:nth-child(2){
+    transform: translate(150%);
+}
+
+.stack:hover > .card:nth-child(1){
+    transform: translate(178%);
+}
+
+.stack:hover > .right
+{
+    display: none;
+}
+
+.anchor
+{
+    position: absolute;
+    top: 100%;
+    height: 100%;
+    z-index: 7;
+}
+
+.anchor img
+{
+    height: 100%;
+    width: 100%;
+}
+
 
 
